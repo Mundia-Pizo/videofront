@@ -1,15 +1,15 @@
 import * as actions from '../actions/actionTypes';
 
 const initialState={
-    courses:[]
+    lessons:[]
 }
 
-export function courses(state=initialState, action) {
+export function lessons(state=initialState, action) {
     switch(action.type){
-        case actions.GET_COURSES:
+        case actions.GET_LESSONS:
             return {
                 ...state,
-                courses:action.payload
+                lessons:action.payload
             }
         
         default:

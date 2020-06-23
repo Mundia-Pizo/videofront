@@ -11,7 +11,7 @@ ul, li{
 }
 
 .App-header {
-  background-color: grey;
+  background-color:#c5cae9;
 }
 
 .App-link {
@@ -20,4 +20,13 @@ ul, li{
 .form-padding{
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.styled-image{
+  position:center;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 150px;
 }
